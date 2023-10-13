@@ -3,8 +3,8 @@ import Top from "./Top";
 import Botttom from "./Bottom";
 
 const Main = () => {
-    const [diff, setDiff] = useState(null)
-    const [input, setInput] = useState(null)
+    const [diff, setDiff] = useState(null)  // Difference between dates
+    const [input, setInput] = useState(null) // The date from the user
     useEffect(() => {
         if (input)
             setDiff(new Date(new Date() - input))
