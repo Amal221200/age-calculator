@@ -1,0 +1,8 @@
+const diff = new Date((new Date()) - (new Date('2000-12-22')))
+
+ const d = (new Date())
+let year = diff.getYear()-70, month= diff.getMonth(), date = diff.getUTCDate()-1
+undefined
+const yearString = `${year}-${month.toString().padStart(2, '0')}-${date.toString().padStart(2, '0')}`
+// '22-09-20'
+
